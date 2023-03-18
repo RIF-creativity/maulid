@@ -35,7 +35,7 @@ body {
 }
 
 .none{display: none;}
-#form ul {
+#form ul{
     background-color: rgba(250, 255, 252, 0.69);
     width: 20vw;
     padding :3vw;
@@ -90,4 +90,12 @@ a{
     float: right;
     font-size: 15px;
     margin-top: 10px;
+}
+p{
+    position: absolute;
+    width: 100%;
+    font-size: 20px;
+    color: red;
+    font-family: italic;
+    text-align: center;
 }

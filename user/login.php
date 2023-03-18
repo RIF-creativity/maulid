@@ -39,15 +39,11 @@ if (isset($_POST["login"])) {
     <div class="bg"></div>
     <div id="form">
         <form action="" method="post">
-        <ul>
-            <li>
-                <?php
-                if ($eror == true) {
-                    echo'
-                    <p style="color:red;">username/password salah</p>
-                    ';
-                }
-                ?>
+            <?php if (isset($eror)):?>
+            <p>*username/pasword salah</p>
+            <?php endif;?>
+            <ul>
+                <li>
                 <h1>Login</h1>
             </li>
             <li>Username</li>
