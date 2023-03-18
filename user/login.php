@@ -41,7 +41,13 @@ if (isset($_POST["login"])) {
         <form action="" method="post">
         <ul>
             <li>
-    
+                <?php
+                if ($eror == true) {
+                    echo'
+                    <p style="color:red;">username/password salah</p>
+                    ';
+                }
+                ?>
                 <h1>Login</h1>
             </li>
             <li>Username</li>
