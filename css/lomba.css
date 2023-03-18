@@ -1,0 +1,13 @@
+:root {
+    --basic: rgb(201, 246, 230);
+    --cover: rgb(8, 98, 58);
+    --text: rgb(217, 225, 218);
+}
+
+.conten img{width: 100%;}
+.conten{
+    margin: 5%;
+    padding: 10px;
+    width: 90%;
+    background-color: var(--basic);
+}

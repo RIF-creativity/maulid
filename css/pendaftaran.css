@@ -1,0 +1,40 @@
+:root {
+    --basic: rgb(140, 192, 174);
+    --cover: rgb(8, 98, 58);
+    --text: rgb(242, 242, 242);
+    --tb : rgb(206, 240, 228);
+}
+#tb{
+    width: 99%;
+    padding: 5px;
+    background-color: var(--tb);
+}
+.none{display: none;}
+.daftar{
+    font-size: 20px;
+}
+#tb input{
+    float: right;
+    font-size: 20px;
+}
+input,button{font-size: 20px;}
+button,.btn{
+    background-color: var(--cover);
+    margin: 20px;
+    color: var(--text);
+    border: none;
+    border-radius: 10%;
+}
+button:hover,.btn:hover{
+    background-color: var(--basic);
+    color: black;
+}
+
+h2{text-align: center;}
+p{margin-left: 20px;}
+#textarea{
+    width: 90%;
+    float: right;
+    padding: 10px;
+    font-size: 20px;
+}
