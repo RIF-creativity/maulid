@@ -8,6 +8,7 @@ body {
    height: 100vh;
     font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
   }
   
   .header {
@@ -16,13 +17,15 @@ body {
   
   #navbar {
     overflow: hidden;
-    background-color: var(--text);
+    border: 0.1px solid var(--cover);
+    background-color: white;
+    box-shadow: 0 0 7px black;
   }
   
   #navbar a {
     float: left;
     display: block;
-    background-color: var(--text);
+    background-color:white;
     color: var(--cover);
     text-align: center;
     padding: 14px 16px;
@@ -48,7 +51,7 @@ body {
   .sticky + .content {
     padding-top: 60px;
   }
-  .active{
+  #navbar .active{
     background-color: var(--cover);
     color: var(--text);
   }

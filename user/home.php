@@ -13,7 +13,7 @@ require("function.php");
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="../css/header.css">
+  <link rel="stylesheet" href="../css/basic.css">
   <link rel="stylesheet" href="../countdown-flip-timer/styles.css">
   <script src="../countdown-flip-timer/script.js"></script>
   <title>Document</title>
@@ -21,7 +21,7 @@ require("function.php");
 
 <body>
 <div class="timer">
-  <h1>MAULID 2030 <br> <span>coming soon</span></h1>
+  <h1>MAULID 2023 <br> <span>coming soon</span></h1>
   <div class="container">
     <div class="container-segment">
       <div class="segment-title">Hours</div>
